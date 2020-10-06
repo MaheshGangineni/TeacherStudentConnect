@@ -1,0 +1,10 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<ul>
+    <li>@Html.ActionLink("Register", "AdminRegister", "Admin", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+    <li>@Html.ActionLink("Log in", "AdminLogin", "Admin", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+</ul>
